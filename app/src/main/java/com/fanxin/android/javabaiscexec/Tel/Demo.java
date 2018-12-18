@@ -19,6 +19,6 @@ public class Demo implements ISon {
 
     @Override
     public void fly() {
-        
+
     }
 }
