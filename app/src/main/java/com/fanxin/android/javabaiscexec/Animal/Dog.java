@@ -18,6 +18,11 @@ public class Dog extends Animal{
         this.sex = sex;
     }
 
+    public Dog(String name , int month) {
+        this.setName(name);
+        this.setMonth(month);
+    }
+
     public String getSex() {
         return sex;
     }

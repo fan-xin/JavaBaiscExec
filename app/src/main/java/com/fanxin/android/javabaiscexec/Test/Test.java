@@ -10,8 +10,8 @@ import com.fanxin.android.javabaiscexec.Animal.Dog;
  */
 public class Test {
     public static void main(String[] args){
-        Animal one = new Animal();
-        one.Eat();
+//        Animal one = new Animal();
+//        one.Eat();
 
         Animal two = new Cat();
         two.Eat();
@@ -19,7 +19,7 @@ public class Test {
         Animal three = new Dog();
         three.Eat();
 
-        one.Eat();
+//        one.Eat();
         two.Eat();
         two.setMonth(2);
         two.getMonth();
@@ -46,6 +46,10 @@ public class Test {
             System.out.println("two可以转换为Dog类型");
 
         }
+
+        Animal pet = new Dog("画画",2);
+        pet.getMonth();
+        pet.getName();
 
 
 

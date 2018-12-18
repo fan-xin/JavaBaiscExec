@@ -4,7 +4,7 @@ package com.fanxin.android.javabaiscexec.Animal;
  * Created by Fan Xin <fanxin.hit@gmail.com>
  * 18/12/17  16:57
  */
-public class Animal {
+public abstract class Animal {
     //属性
     private String name;
     private int month;
@@ -13,7 +13,6 @@ public class Animal {
     public Animal(String name, int month){
         this.name = name;
         this.month = month;
-
     }
 
     public Animal(){
@@ -36,9 +35,7 @@ public class Animal {
         this.month = month;
     }
 
-    public void Eat(){
-        System.out.println("Animals eat food.");
-    }
+    public abstract void Eat();
 
 
 }
