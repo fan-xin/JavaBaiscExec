@@ -10,6 +10,8 @@ public class PeopleTest {
         Person lili = new Person();
         lili.age = 12;
 
+        /*
+
         //获取内部类的对象
         //new一个外部类的对象，然后new内部类
         Person.Heart myheart = new Person().new Heart();
@@ -18,6 +20,18 @@ public class PeopleTest {
         //使用外部类的对象，获取内部类的实例
         myheart = lili.new Heart();
         System.out.println(myheart.beat());
+
+
+        */
+
+        //获取静态内部类对象的方法
+//        Person.Heart myHeart = new Person.Heart();
+//        System.out.println(myHeart.beat());
+
+        System.out.println(lili.getHeart());
+
+
+
 
 
 
